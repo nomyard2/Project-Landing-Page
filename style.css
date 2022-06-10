@@ -1,0 +1,152 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+   
+}   
+
+.header, .footer{
+    padding: 0 16px;
+    font-size: 16px;
+    font-weight: 200;
+    height: 36px;
+    background-color:#1F2937
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  
+}
+
+.box-1{
+    display: flex;  
+    flex:2; 
+    align-items: center;
+    background-color:#1F2937;
+    justify-content: space-around;
+}
+
+.sub-box-0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sub-box-1, .image{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    flex: 1 1 0px;
+
+
+}
+
+.sub-box-1{
+    min-width:0;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.sub-box-text{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    
+}
+
+.box-2 {
+    display: flex;
+    background: white;
+    flex:2;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-info{
+    display:flex;
+    gap: 52px;
+}
+
+.info{
+    max-width: 200px
+}
+
+
+.box-3 {
+    display: flex; 
+    background: #E5E7EB;
+    flex:2;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-name{
+    display:flex;
+    max-width: 450px;
+}
+
+.name{
+    display:flex;
+    align-items: flex-end;
+
+}
+
+.box-4{
+    display: flex;
+    background: white;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cta-box{
+    display:flex;
+    background: #3882F6;
+    align-items: center;
+    gap: 900px;
+    padding: 50px;
+    border-radius: 10px;
+
+}
+
+.arrangement{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex:2;
+}
+
+button{
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 5px;
+    text-decoration-color: white;
+}
